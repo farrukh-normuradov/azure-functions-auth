@@ -61,7 +61,7 @@ typings/
 .idea/
 
 # Build output
-lib
+# lib
 
 # RESTClient-extension.requests
 RESTClient-extension.requests
