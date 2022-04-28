@@ -1,5 +1,5 @@
 declare function createValidateJwt(
-  options: createValidateJwt.AuthOptions
+  options: createValidateJwt.AuthOptions,
 ): Function;
 
 export = createValidateJwt;
@@ -11,5 +11,6 @@ declare namespace createValidateJwt {
     domain: string;
     algorithms: string[];
     audience?: string;
+    requestProperty: string;
   }
 }
